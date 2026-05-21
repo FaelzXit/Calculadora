@@ -1,0 +1,5 @@
+Aprendizado:
+
+includes() é um método utilizado para verificar se um determinado valor existe dentro de uma string ou array. Ele retorna um valor booleano (true ou false), sendo muito usado em condições para identificar a presença de caracteres, palavras ou elementos específicos.
+
+split() é um método usado para dividir uma string em várias partes a partir de um separador definido. O resultado é um array contendo os valores separados.
