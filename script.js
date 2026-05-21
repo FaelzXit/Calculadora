@@ -30,9 +30,12 @@ pegaValor.forEach(botao => {
                 res =
                     Number(valorSeparado[0]) +
                     Number(valorSeparado[1])
-
-                    console.log(valorSeparado)
+                
+                valor1 = String(res)
+                
             }
+
+
 
             // SUBTRAÇÃO
             else if (valor1.includes('-')) {
@@ -43,8 +46,8 @@ pegaValor.forEach(botao => {
                     Number(valorSeparado[0]) -
                     Number(valorSeparado[1])
 
-                    console.log(valorSeparado)
-                    
+                valor1 = String(res)
+
             }
 
             // MULTIPLICAÇÃO
@@ -56,8 +59,8 @@ pegaValor.forEach(botao => {
                     Number(valorSeparado[0]) *
                     Number(valorSeparado[1])
 
-                    console.log(valorSeparado)
-                    
+                valor1 = String(res)
+
             }
 
             // DIVISÃO
@@ -69,7 +72,7 @@ pegaValor.forEach(botao => {
                     Number(valorSeparado[0]) /
                     Number(valorSeparado[1])
 
-                    console.log(valorSeparado)
+                valor1 = String(res)
 
             }
 
@@ -82,7 +85,7 @@ pegaValor.forEach(botao => {
                     (Number(valorSeparado[0]) / 100) *
                     Number(valorSeparado[1])
 
-                    console.log(valorSeparado)
+                valor1 = String(res)
 
             }
 
@@ -95,6 +98,8 @@ pegaValor.forEach(botao => {
 
             valor1 += botao.value
             visor.textContent = valor1
+            
+            
 
         }
 
